@@ -1,6 +1,4 @@
 import React from "react";
-import { Ledger } from "./home/";
-import { ActionMenu } from "./home/";
 
 class Home extends React.Component {
   getClassName() {
@@ -9,8 +7,7 @@ class Home extends React.Component {
   render() {
     return (
       <div className={`${this.getClassName()}`}>
-        <Ledger classname={`${this.getClassName()}__ledger`} />
-        <ActionMenu classname={`${this.getClassName()}__actionMenu`} />
+        Welcome Home
       </div>
     );
   }

@@ -1,52 +1,23 @@
 import actionTypes from "./actionTypes";
 
 const actions = {
-  loginUser: ({ username, password }) => ({
-    type: actionTypes.LOGIN_REQUEST,
+  requestUser: userId  => ({
+    type: actionTypes.REQUEST,
+    payload: userId
+    
+  }),
+  requestUserSuccess: user  => ({
+    type: actionTypes.REQUEST_SUCCESS,
     payload: {
-      username,
-      password
+      user
     }
   }),
-  loginUserFail: msg => ({
-    type: actionTypes.LOGIN_FAIL,
+  requestUserFailure: msg => ({
+    type: actionTypes.REQUEST_FAILURE,
     payload: {
-      clientMessage: "Failed to fetch users",
+      clientMessage: "Failed to fetch user",
       devMessage: msg
     }
-  }),
-  loginUserSuccess: user => ({
-    type: actionTypes.LOGIN_SUCCESS,
-    payload: user
-  }),
-  logoutUserRequest: () => ({
-    type: actionTypes.LOGOUT_REQUEST
-  }),
-  logoutUserFail: msg => ({
-    type: actionTypes.LOGOUT_FAIL,
-    payload: {
-      clientMessage: "Failed to fetch users",
-      devMessage: msg
-    }
-  }),
-  logoutUserSuccess: user => ({
-    type: actionTypes.LOGOUT_SUCCESS,
-    payload: user
-  }),
-  registerUserRequest: user => ({
-    type: actionTypes.REGISTER_REQUEST,
-    payload: user
-  }),
-  registerUserFail: msg => ({
-    type: actionTypes.REGISTER_FAIL,
-    payload: {
-      clientMessage: "Failed to regisetr users",
-      devMessage: msg
-    }
-  }),
-  registerUserSuccess: user => ({
-    type: actionTypes.REGISTER_SUCCESS,
-    payload: user
   }),
   clearUser: () => ({
     type: actionTypes.CLEAR

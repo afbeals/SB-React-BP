@@ -1,11 +1,7 @@
-import { fetchUsers as loginUser } from "./api/users";
-import { registerUser } from "./api/users";
-import { fetchLedger } from "./api/ledger";
+import { fetchUser } from "./api/users";
 
 const api = {
-  loginUser,
-  fetchLedger,
-  registerUser
+  fetchUser
 };
 
 export default api;

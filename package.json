@@ -1,8 +1,8 @@
 {
-  "name": "awesome-ledger",
+  "name": "sb-react-bp",
   "version": "1.0.0",
   "private": true,
-  "description": "awesome ledger",
+  "description": "codesandbox react boilerplate",
   "dependencies": {
     "@material-ui/core": "3.3.2",
     "@material-ui/icons": "3.0.1",
