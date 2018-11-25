@@ -7,7 +7,7 @@ class Home extends React.Component {
   render() {
     return (
       <div className={`${this.getClassName()}`}>
-        Welcome Home
+        Home Page
       </div>
     );
   }
