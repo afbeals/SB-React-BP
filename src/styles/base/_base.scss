@@ -1,0 +1,15 @@
+html {
+  font-size: 18px;
+  #root {
+    height: 100%;
+    width: 100%;
+    background-color: $color-grey;
+    .pageLoader {
+      #content {
+        position: relative;
+        top: 75px;
+        padding: 1rem;
+      }
+    }
+  }
+}

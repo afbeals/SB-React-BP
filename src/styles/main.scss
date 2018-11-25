@@ -1,0 +1,11 @@
+//Base
+@import "./base/reset";
+@import "./base/animations";
+@import "./base/variables";
+@import "./base/_base";
+//Components
+@import "./components/navigation";
+//Pages
+@import "./pages/login";
+@import "./pages/home";
+@import "./pages/signup";

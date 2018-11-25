@@ -1,0 +1,43 @@
+{
+  "name": "awesome-ledger",
+  "version": "1.0.0",
+  "private": true,
+  "description": "awesome ledger",
+  "dependencies": {
+    "@material-ui/core": "3.3.2",
+    "@material-ui/icons": "3.0.1",
+    "connected-react-router": "4.5.0",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "react-redux": "5.0.6",
+    "react-router": "4.2.0",
+    "react-router-dom": "4.2.2",
+    "react-scripts": "2.1.1",
+    "react-virtualized": "9.21.0",
+    "redux": "3.7.2",
+    "redux-saga": "0.16.2",
+    "reselect": "4.0.0",
+    "styled-components": "4.0.2",
+    "underscore": "1.9.1"
+  },
+  "devDependencies": {
+    "command-line-args": "^5.0.2",
+    "node-sass": "^4.10.0",
+    "readline": "^1.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

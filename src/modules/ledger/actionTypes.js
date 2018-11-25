@@ -1,0 +1,14 @@
+const MODULE = `awesomeLedger/ledger/`;
+
+const actionTypes = {
+  FETCH_REQUEST: `${MODULE}FETCH_REQUEST`,
+  FETCH_FAIL: `${MODULE}FETCH_FAIL`,
+  FETCH_SUCCESS: `${MODULE}FETCH_SUCCESS`,
+  ADD_REQUEST: `${MODULE}ADD_REQUEST`,
+  ADD_FAIL: `${MODULE}ADD_FAIL`,
+  ADD_SUCCESS: `${MODULE}ADD_SUCCESS`,
+  CLEAR: `${MODULE}CLEAR`,
+  RESET: `${MODULE}RESET`
+};
+
+export default actionTypes;

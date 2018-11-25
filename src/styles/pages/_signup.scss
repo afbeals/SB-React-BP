@@ -1,0 +1,36 @@
+.signupPage {
+    width: 100%;
+    min-height: 40vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    &__card {
+      max-height: 600px;
+      max-width: 650px;
+      &__form {
+        form {
+          display: flex;
+          flex-wrap: wrap;
+          >div {
+            width: 100%;
+          }
+          .buttonWrapper{
+            justify-content: space-between;
+            display:flex;
+            button {
+              margin: 0rem .25rem;
+              &:disabled {
+                border: none;
+                cursor: auto;
+                &:hover {
+                  background-color: initial;
+                  color: graytext;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
